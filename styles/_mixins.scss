@@ -1,0 +1,15 @@
+@mixin myCustomFilter($pr) {
+    filter: brightness($pr);
+}
+@mixin myCustomFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@mixin myCustomImg {
+    height: 40%;
+    width: 30%;
+    object-fit: cover;
+}
